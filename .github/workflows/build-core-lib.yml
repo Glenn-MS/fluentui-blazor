@@ -128,7 +128,7 @@ jobs:
          reporttypes: 'HtmlInline;MarkdownSummaryGithub'
      
      - name: Upload coverage report
-       uses: actions/upload-artifact@v2
+       uses: actions/upload-artifact@v5
        with:
          name: CoverageReports
          path: CoverageReports
